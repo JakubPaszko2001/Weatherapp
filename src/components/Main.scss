@@ -1,0 +1,64 @@
+.container {
+    background-color: var(--background-light);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    padding: 1rem;
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.searchBar {
+
+}
+
+.city {
+
+}
+
+.icon {
+
+}
+
+.temp {
+    font-size: 40px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.daysContainer {
+    display: flex;
+    flex-direction: column;
+}
+.around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
