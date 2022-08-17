@@ -51,7 +51,7 @@ const data = evt => {
             onKeyPress={data}
             />
 
-            <BsSearch size={30}/>
+            {/* <BsSearch size={30}/> */}
         </div>
         {(typeof weather.main != "undefined") ? (
         <div className='space'>
