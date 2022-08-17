@@ -48,7 +48,7 @@
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 100vh;
+  height: 80vh;
 }
 
 input {
