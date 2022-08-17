@@ -3,7 +3,7 @@
     color: var(--text-color);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    // justify-content: space-around;
     height: 100vh;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -19,6 +19,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
 }
 
 input {
@@ -38,6 +44,9 @@ input:focus{
 
 .city {
 
+}
+.wind {
+    font-size: 13.5px;
 }
 
 .icon {
